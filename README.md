@@ -56,5 +56,5 @@ The user home page contains all the playlists a user has. We can see the QR code
 At this page, users can scan/save this QR code on their devices, and they will be directed to the designated webpage of this playlist. In addition, users can also click on each song and it will lead them to the song page in spotify. 
 ![playlist](https://user-images.githubusercontent.com/22974252/42427112-51d7bbee-835f-11e8-9824-5ea45d4183e9.png)
 
-Scan with your phone and try it out! 
+Scan with your phone and share it with your friends! 
 ![phone](https://user-images.githubusercontent.com/22974252/42427380-d18bb22c-8360-11e8-9a02-30af3ebf74ba.jpeg)
