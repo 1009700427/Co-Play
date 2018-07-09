@@ -16,7 +16,7 @@ CoPlay is a web app that helps people share their Spotify playlists with QR code
 
 ## Installation Instructions:
 #### Prerequisites
-Requires Node.js MongoDB installed.
+Requires Node.js installed.
 1. Clone the repository
 2. ```cd Co-Play```
 3. Run ```npm install``` to download node modules
