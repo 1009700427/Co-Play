@@ -31,12 +31,27 @@ Requires Node.js MongoDB installed.
   - Bootstrap 
   - LESS 
   - HTML/CSS
-  - QR Code API 
+  - [QR Code API](http://goqr.me/api/doc/create-qr-code/)
 - Backend
   - Express.js 
-  - Spotify Web API
+  - [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
 
 ## Features 
 
-### Login Page 
+### Login and Register Page 
+In order to login/register, click on the ```Login with Spotify``` button, and it will lead you to the Spotify login site. This functionality is achieved with the OAuth Framework. In this way, we can receive authorization and refresh token for particular Spotify users and thus receive useful information (playlists, tracks, and so on). 
 
+Login/Register Page: 
+![login](https://user-images.githubusercontent.com/22974252/42426640-1fb39b90-835c-11e8-9ebf-6f6f1ee8bd63.png)
+
+![login2](https://user-images.githubusercontent.com/22974252/42426726-d14efa3e-835c-11e8-924b-6ad360cac0c5.png)
+
+![login3](https://user-images.githubusercontent.com/22974252/42426795-40dc0c70-835d-11e8-8677-945aa4e63c96.png)
+
+### User Home Page
+The user home page contains all the playlists a user has. We can see the QR code as well as a complete list of songs by clicking on each playlist. 
+![userhome](https://user-images.githubusercontent.com/22974252/42426992-b4e1abf6-835e-11e8-856b-d1bfd5271bed.png)
+
+### QR Code and Songs 
+User can also click on each song and it will redirect you to the song page in spotify. 
+![playlist](https://user-images.githubusercontent.com/22974252/42427112-51d7bbee-835f-11e8-9824-5ea45d4183e9.png)
